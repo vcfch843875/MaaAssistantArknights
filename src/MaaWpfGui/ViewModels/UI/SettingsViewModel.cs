@@ -176,7 +176,7 @@ namespace MaaWpfGui.ViewModels.UI
 
         private void Init()
         {
-            TaskQueueViewModel.InfrastTask.InitInfrast();
+            TaskQueueViewModel.InfrastTask.InitInfrastRoomList();
             TaskQueueViewModel.RoguelikeTask.InitRoguelike();
             InitConfiguration();
             InitUiSettings();
